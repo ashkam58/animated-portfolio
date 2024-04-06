@@ -6,6 +6,7 @@
     background-color: white;
     color: black;
     
+    
     .bg{
         position: fixed;
         top: 0;
@@ -13,6 +14,7 @@
         bottom: 0;
         width: 400px;
         background: white;
+        z-index: 1000;
         
         .links{
             position: absolute;
@@ -38,5 +40,6 @@
         left: 25px;
         background:transparent;
         border: none;
+        z-index: 1002;
     }
 }

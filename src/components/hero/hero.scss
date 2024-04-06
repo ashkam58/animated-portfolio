@@ -1,0 +1,38 @@
+.hero{
+    height: calc(100vh - 100px);
+    overflow: hidden;
+    position: relative;
+    background:linear-gradient(180deg, #0c0c1d, #111132);
+    border: 5px solid;
+
+    .wrapper{
+        max-width: 1366px;
+        height: 100%;
+        margin: auto;
+
+        .textContainer{
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            justify-content: center;
+            gap: 50px;
+        }
+
+        img{
+            width: 45px;
+        }
+    }
+
+    .imageContainer{
+        height: 100%;
+        position: absolute;
+        top: 0;
+        right: 0;
+        border: 5px solid;
+
+        img{
+            height: 650px;
+        }
+
+    }
+}
