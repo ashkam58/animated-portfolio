@@ -1,8 +1,10 @@
 import "./hero.scss";
+import ParticleBackground from "./ParticleBackground";
 
 const Hero = () => {
   return (
     <div className="hero">
+      <ParticleBackground />
       <div className="container">
         <div className="text">
           <h1>Hello, I&apos;m Ashkam Anwar</h1>
