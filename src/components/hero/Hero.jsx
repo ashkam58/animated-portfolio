@@ -3,21 +3,20 @@ import "./hero.scss";
 const Hero = () => {
   return (
     <div className="hero">
-      <div className="wrapper">
-        <div className="textContainer">
-          <h2>Ashkam Anwar</h2>
-          <h1>AI & Coding Educator | Teacher Trainer</h1>
-          <div className="buttons">
-            <button>See the Latest Works</button>
-            <button>Contact Me</button>
+      <div className="container">
+        <div className="text">
+          <h1>Hello, I&apos;m Ashkam Anwar</h1>
+          <p className="subtitle">AI &amp; Coding Educator | Teacher Trainer</p>
+          <div className="cta">
+            <button>Get Started</button>
           </div>
-          <img src="/scroll.png" alt="" />
         </div>
-      </div>
-      <div className="imageContainer">
-        <img src="/public/hero.png" alt="" /> 
+        <div className="image">
+          <img src="/hero.png" alt="Fun coding illustration" />
+        </div>
       </div>
     </div>
   );
 };
+
 export default Hero;
